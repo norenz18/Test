@@ -1,0 +1,120 @@
+html,body{
+
+background: #000;
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+padding: 0;
+}
+img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+	opacity: 0.8;
+	width: 500px;
+	height: 450px;	
+}
+
+#image1{
+	border-radius: 50%;
+	border: 2px solid red;
+    
+}
+
+button{
+
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200px;
+}/*
+#btn{
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-weight: bold;
+	font-family: helvetica;
+	line-height: 40px;
+
+}
+#btn:hover{
+	
+	color: #fff;
+	background-color: #e50000;
+	transition: 0.3s;
+	text-decoration: none;
+}*/
+
+.modal-footer{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	width: auto;
+
+}
+.main{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 40%;
+	color: #fff;
+	
+}
+.main h1{
+	text-align: center;
+	color: #fff;
+
+}
+.main h3{
+	text-align: center;
+	color: #fff;
+
+}
+
+#btn1{
+	display: block;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 110%;
+	left: 50%;
+	color: #000;
+	font-size: 20px;
+	margin-top: 10px;
+	
+}#btn1:hover{
+	color: #fff;
+	background-color: #e50000;
+	transition: 0.3s;
+
+}
+#btn2{
+	display: block;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 160%;
+	left: 50%;
+	color: #000;
+	font-size: 20px;
+	margin-top: 20px;
+}
+#btn2:hover{
+	color: #fff;
+	background-color: #004095;
+	transition: 0.3s;
+	text-decoration: none;
+}
+.container{
+	height: 100px;
+	display: 
+}
+.container ul li{
+
+	display: inline-grid;
+	text-decoration: none;
+	list-style-type: none;
+}

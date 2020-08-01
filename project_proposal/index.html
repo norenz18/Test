@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-19 Self Test</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+</head>
+<body>
+
+
+<div>
+
+	  <img src="c19.jpg" id="image1">
+
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title"><strong class="alert alert-danger">Covid-19 Self test</strong></h4>
+          <button type="button" class="close" data-dismiss="modal"></button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>This is a COVID-19 self assessment tool that was calibrated based on WHO guidelines.</p>
+          <p>It is not a diagnostic tool..</p>
+
+          <p>visit: <a href="https://www.doh.gov.ph/">https://www.doh.gov.ph</a> or <a href="https://www.who.int/">https://www.who.int</a> for more information about Covid 19.</p>
+          <p>Thank You!</p>
+
+        </div><hr>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Proceed</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="main">
+  <form action="home.html" method="GET">
+  <h1>Covid-19 Self Test</h1>
+    <h3><strong><b>Do you have cough?</b> </strong></h3><br>
+    <button type="submit" id="btn1" class="alert alert-danger">Yes</button>
+    <button type="submit" id="btn2" class="alert alert-info">No</button>
+     </form>
+</div>
+
+
+
+
+
+<script>
+   $(document).ready(function(){
+      $("#myModal").modal('show');
+   });
+</script>
+<!--
+<script>
+  
+  let admin = "norenz";
+  let name;
+ 
+  name = admin;
+
+  alert(name);
+
+
+
+  let mars;
+  let saturn;
+  let jupiter;
+
+  planet = mars, saturn, jupiter;
+
+  alert(planet);
+
+  const birthday = '18.04.1982';
+
+const age = someCode(birthday);
+
+alert(age);
+-->
+
+<script type="text/javascript">
+let str = "Renz;
+let str2 = 'norenz v manalang';
+let phrase = `Waddup ${str}`;
+
+
+alert(`Hey, I am ${phrase}`);
+  
+
+</script>
+
+
+
+
+
+</body>
+</html>
